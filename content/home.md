@@ -21,6 +21,15 @@ image_position = "Left"
 image_shadow = true
 subheading = "subheading"
 template = "media-feature"
+[[blocks]]
+background_image = "/uploads/tweek-tweak.png"
+background_style = "Dark"
+button_text = "punch me"
+button_url = "url"
+heading = "I need a "
+size = "Big"
+subheading = "herooooo"
+template = "hero-section"
 
 +++
 {{title}}

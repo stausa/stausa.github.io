@@ -1,0 +1,25 @@
+.social{
+  display: inline-flex;
+  a {
+    margin: 0 10px 10px 0;
+    color: #fff;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    line-height: 40px;
+    font-size: 15px;
+    text-align: center;
+    vertical-align: bottom;
+    border: solid 1px #999999;
+    color: #999999;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+
+    .inline-svg {
+      width: 50%;
+      top: 0.25rem;
+    }
+  }
+}

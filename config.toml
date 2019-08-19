@@ -1,4 +1,39 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-theme = "sawmill"
-title = "My New Hugo Site"
+title = "Stausa Art Studio"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "gallery"
+    name = "Gallery"
+    url = "/gallery/"
+    weight = 10
+    
+  [[menu.main]]
+    parent = "gallery"
+    name = "barche"
+    url = "/gallery/barche/"
+    
+  [[menu.main]]
+    parent = "gallery"
+    name = "pupazzi"
+    url = "/gallery/pupazzi/"
+
+  [[menu.main]]
+    identifier = "exhibitions"
+    name = "Exhibitions"
+    url = "/exhibitions/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 30
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 40

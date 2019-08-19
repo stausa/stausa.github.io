@@ -1,0 +1,39 @@
+/* Masonry grid */
+.masonry {
+  transition: all .5s ease-in-out;
+  column-gap: 15px;
+  column-fill: initial;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+/* Masonry item */
+.masonry .brick {
+  margin-bottom: 10px;
+  display: inline-block; /* Fix the misalignment of items */
+  vertical-align: top; /* Keep the item on the very top */
+}
+
+/* Masonry image effects */
+.masonry .brick img {
+  transition: all .5s ease-in-out;
+  backface-visibility: hidden; /* Remove Image flickering on hover */
+}
+
+.masonry .brick:hover img {
+  opacity: .7;
+}
+
+/* Masonry on tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .masonry {
+    column-count: 3;
+  }
+}
+
+/* Masonry on big screens */
+@media only screen and (min-width: 1024px) {
+  .masonry {
+    column-count: 4;
+  }
+}

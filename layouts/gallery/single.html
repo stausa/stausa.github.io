@@ -1,0 +1,9 @@
+{{ define "main" }}
+<div class="page-content">
+	<div class="wrapper">
+    {{ partial "sidebar" . }}
+    {{/*  {{ partial "portfolio" . }}  */}}
+		{{ .Content }}
+	</div>
+</div>
+{{ end }}

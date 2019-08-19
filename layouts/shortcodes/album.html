@@ -1,0 +1,9 @@
+{{ $albumUrl := print "static/img/" ($.Get 0) }}
+<div class="masonry">
+  {{ range readDir $albumUrl }}
+  {{ $imgURL := print "img/" ($.Get 0) "/" .Name | absURL }}
+  <div class="brick">
+    <img class="pure-img" src="{{ $imgURL }}" alt="Dummy Image" title="Cherry plant" />
+  </div>
+  {{ end }}
+</div>

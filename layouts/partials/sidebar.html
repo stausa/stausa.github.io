@@ -1,0 +1,15 @@
+<aside>
+  {{ $currentPage := . }}
+  {{ range .Site.Menus.main }}
+    {{ if and (.HasChildren) (in $currentPage.RelPermalink .URL) }}
+      <ul class="sub-menu">
+        {{ range .Children }}
+          <li {{ if (eq $currentPage.RelPermalink .URL) }}class="active"{{ end }}>
+            {{ partial "fontawesome.html" "angle-right" }}
+            <a href="{{ .URL }}">{{ .Name }}</a>
+          </li>
+        {{ end }}
+      </ul>
+    {{ end }}
+  {{ end }}
+</aside>

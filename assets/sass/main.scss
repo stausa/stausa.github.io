@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+// Our variables
+$base-font-family: "Open Sans", Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$alabaster: #F3EAE5;
+$yankees-blue: #22223B;
+
+$text-color:       $yankees-blue;
+$background-color: $alabaster;
+$brand-color:      #2a7ae2;
+// $secondary-color:  #1678D3;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+$on-palm:          730px;
+$on-laptop:        800px;
+
+// Using media queries with like this:
+// @include media-query($palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+      @content;
+  }
+}
+
+.full-bg-img { 
+  background: no-repeat bottom center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+
+.inline-svg {
+  display: inline-block;
+  // height: 1.15rem;
+  width: 0.5rem;
+  top: 0.15rem;
+  position: relative;
+}
+
+.wrapper {
+  display: flex;
+}
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "pure",
+        "fonts",
+        "base",
+        "nav",
+        "social",
+        "masonry"
+;

@@ -1,5 +1,5 @@
 ---
-title: "Home"
+title: "Gallery"
 ---
 
 ## hello there

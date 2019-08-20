@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stausa Art Studio</title>
+    <link>http://example.org/</link>
+    <description>Recent content on Stausa Art Studio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>http://example.org/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/about/</guid>
+      <description>Σχετικά με εμάς Στον Άσπρο Ποταμό, στο πανέμορφο μετόχι του Μάκη και της Μαρίας, σας περιμένει ένας καφές και μια ανάπαυλα, μια υποδοχή απλή και εγκάρδια, στην αυλή του σπιτιού που ανακαίνισαν μόνοι και το μετέτρεψαν σε προσωπική αίθουσα τέχνης όπου και εκθέτουν τις δημιουργίες τους. &amp;lsquo;Εργα φτιαγμένα από πραγματικά αυθεντικά υλικά. Κομμάτια ξύλου ξεβρασμένα από κάποιο Νοτιά, σκαμμμένα από τον χρόνο, αδρανή, σχεδόν νεκρά, τελειωμένα και άχρηστα ξαναζωντανεύουν με τη ματιά του καλλιτέχνη που διακρίνει αξιοπρέπεια, βαθύτητα, νέους όγκους, ζεστασιά βλεμμάτων και αισθησιασμό ναυαγών κορμιών με χίλιες ιστορίες για να πουν και πάλι.</description>
+    </item>
+    
+    <item>
+      <title>Barche 1</title>
+      <link>http://example.org/gallery/barche/1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/gallery/barche/1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Barche 1</title>
+      <link>http://example.org/gallery/pupazzi/1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/gallery/pupazzi/1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gallery</title>
+      <link>http://example.org/gallery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/gallery/</guid>
+      <description>Gallery Please guide yourself to our artworks by clicking on any of the albums</description>
+    </item>
+    
+    <item>
+      <title>Home</title>
+      <link>http://example.org/home/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/home/</guid>
+      <description>hello there Well how are you doing?</description>
+    </item>
+    
+    <item>
+      <title>Stausa Barche</title>
+      <link>http://example.org/gallery/barche/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/gallery/barche/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stausa Pupazzi</title>
+      <link>http://example.org/gallery/pupazzi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/gallery/pupazzi/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

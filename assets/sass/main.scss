@@ -36,6 +36,10 @@ $on-laptop:        800px;
   }
 }
 
+body {
+  position: relative;
+}
+
 .full-bg-img { 
   background: no-repeat bottom center fixed; 
   -webkit-background-size: cover;
@@ -53,8 +57,21 @@ $on-laptop:        800px;
   position: relative;
 }
 
-.wrapper {
+.page-content.gallery {
   display: flex;
+}
+
+.site-footer {
+  text-align: center;
+  padding-top: 15px;
+  background-color: blanchedalmond;
+  bottom: 0px;
+  position: absolute;
+  width: 100%;
+}
+
+.wrapper > * {
+  padding-left: 30px;
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)

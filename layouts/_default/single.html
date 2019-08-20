@@ -1,7 +1,12 @@
 {{ define "main" }}
 <div class="page-content">
+	{{ $currentPage := . }}
+	{{ range .Site.Menus.main }}
+		{{ if and (.HasChildren) (in $currentPage.RelPermalink .URL) }}
+			{{ partial "sidebar" $currentPage }}
+		{{ end }}
+	{{ end }}
 	<div class="wrapper">
-		{{ partial "sidebar" . }}
 		{{ .Content }}
 	</div>
 </div>

@@ -2,6 +2,6 @@
 title: "Gallery"
 ---
 
-## hello there
+## Gallery
 
-Well how are you doing?
+Please guide yourself to our artworks by clicking on any of the albums

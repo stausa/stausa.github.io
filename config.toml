@@ -1,6 +1,7 @@
-baseURL = "http://example.org/"
+baseURL = "https://stausa.github.io/"
 languageCode = "en-us"
 title = "Stausa Art Studio"
+publishDir = "docs"
 
 [menu]
 
